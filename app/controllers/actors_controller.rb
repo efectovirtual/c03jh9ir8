@@ -1,7 +1,7 @@
 class ActorsController < ApplicationController
 
   def index
-    @actores = Actor.all
+    @actors = Actor.all
   end
 
   def show
